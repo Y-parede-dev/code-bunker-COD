@@ -126,6 +126,7 @@ form {
 }
 fieldset{
   display:flex;
+  max-width: 100%;
   justify-content: center;
 }
 #input-bunker {
@@ -157,6 +158,9 @@ footer{
 }
 
 @media (max-width:500px){
+  html {
+    font-size: 80%;
+  }
  
   figure{
     width: 100%
@@ -168,9 +172,17 @@ footer{
   .emplacement {
     margin: 3px 0;
   }
+  
  
 }
 @media (max-width:1000px){
+  fieldset{
+    margin: auto;
+}
+#input-bunker{
+  margin: 0;
+  font-size: 1.6rem;
+}
    form{
     margin:16px 0;
   }
