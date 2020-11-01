@@ -51,17 +51,17 @@ input.addEventListener('input', function submit(e){
     console.log(result)
   }else if(e.target.value == "f4" || e.target.value == "F4"){
     let result = document.createElement('p');
-    result.innerHTML = "<p class='result'>Le code du " + f4.name + " placé en " + f4.position+ " est: <span class='span-result'>"+  f4.code+"</span></p>";
+    result.innerHTML = "<p class='result'>Le code de la " + f4.name + " placé en " + f4.position+ " est: <span class='span-result'>"+  f4.code+"</span></p>";
     resultDiv.appendChild(result)
     console.log(result)
   }else if(e.target.value == "h8" || e.target.value == "H8"){
     let result = document.createElement('p');
-    result.innerHTML = "<p class='result'>Le code du " + h8.name + " placé en " + h8.position+ " est: <span class='span-result'>"+  h8.code+"</span></p>";
+    result.innerHTML = "<p class='result'>Le code de la " + h8.name + " placé en " + h8.position+ " est: <span class='span-result'>"+  h8.code+"</span></p>";
     resultDiv.appendChild(result)
     console.log(result)
   }else if(e.target.value == "h6" || e.target.value == "H6"){
     let result = document.createElement('p');
-    result.innerHTML = "<p class='result'>Le code du " + h6.name + " placé en " + h6.position+ " est: <span class='span-result'>"+  h6.code+"</span></p>";
+    result.innerHTML = "<p class='result'>Le code de la " + h6.name + " placé en " + h6.position+ " est: <span class='span-result'>"+  h6.code+"</span></p>";
     resultDiv.appendChild(result)
     console.log(result)
   }
