@@ -87,6 +87,7 @@ main {
 }
 .for-help, #list-title{
   color:white;
+  font-family: 'Courier New', Courier, monospace
 }
 #list-title {
   font-size: 1.7rem; 
