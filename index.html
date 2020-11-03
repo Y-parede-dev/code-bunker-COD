@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         
         <link rel="icon" type="image/png" href="images/icon.jpg">
-        <link rel="stylesheet" href="/assets/node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/fonts/Call of Ops Duty.otf"> 
     </head>
@@ -37,12 +36,12 @@
                     <div class="contener contener-fluid">
                         <p id="list-title">liste de emplacements</p>
                         <ul>
-                            <li class="emplacement emplacement_B5 sm-12">Bunker 1 = <span class="position">B5</span></li>
-                            <li class="emplacement emplacement_B7">Bunker 2 = <span class="position">B7</span></li>
-                            <li class="emplacement emplacement_F8">Bunker 3 = <span class="position">F8</span></li>
-                            <li class="emplacement emplacement_F4">Cabane 1 = <span class="position">F4</span></li>
-                            <li class="emplacement emplacement_H8">Cabane 2 = <span class="position">H8</span></li>
-                            <li class="emplacement emplacement_H6">Chambre = <span class="position">H6</span></li>
+                            <li id='B5' class="emplacement emplacement_B5 sm-12" onmouseover="code(0)" onmouseout="noCode(0)">Bunker 1 = <span class="position">B5</span></li>
+                            <li id='B7' class="emplacement emplacement_B7">Bunker 2 = <span class="position">B7</span></li>
+                            <li id='F8' class="emplacement emplacement_F8">Bunker 3 = <span class="position">F8</span></li>
+                            <li id='F4' class="emplacement emplacement_F4">Cabane 1 = <span class="position">F4</span></li>
+                            <li id='H8' class="emplacement emplacement_H8">Cabane 2 = <span class="position">H8</span></li>
+                            <li id='H6' class="emplacement emplacement_H6">Chambre = <span class="position">H6</span></li>
                         </ul>
                     </div>
                     <figure id='figure-map'>
