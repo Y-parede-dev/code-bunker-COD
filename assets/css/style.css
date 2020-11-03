@@ -232,3 +232,8 @@ footer{
     margin: 10px 25%;
   }
 }
+@media screen and (min-width:780px){
+  form{
+    display: none;
+  }
+}
