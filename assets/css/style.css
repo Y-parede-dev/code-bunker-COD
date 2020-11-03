@@ -202,7 +202,7 @@ footer{
     max-width: 80%
   }
   .emplacement:hover{
-    
+    font-size: 2rem;
     transform: scale(1)
   
 }
