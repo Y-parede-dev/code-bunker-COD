@@ -203,18 +203,21 @@ footer{
   }
   .emplacement:hover{
     font-size: 2rem;
-    transform: scale(1)
-  
+    transform: scale(1);
 }
-@keyframes modifyScale{
-  0%{
-    transform: scale(.8);
-  }
-  100%{
-    transform: scale(1)
+  #result-input{
     
+    height: 40px;
   }
-}
+  @keyframes modifyScale{
+    0%{
+      transform: scale(.8);
+    }
+    100%{
+      transform: scale(1)
+      
+    }
+  }
   
  
 }
