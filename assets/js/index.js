@@ -39,9 +39,7 @@ let array = [
   h8,
   h6
 ]
-console.log('test')
-console.log(array.b7)
-console.log(array[0].code)
+
 
 
 let emplacementB5 = document.getElementById('B5');
@@ -69,20 +67,20 @@ function code(p){
 }
 function noCode(p){
   if (p == 0){
-    emplacementB5.innerHTML = '<li id="B5" class="emplacement" onmouseover="code(0)" onmouseout="noCode(0)">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementB5.innerHTML = '<li id="B5" class="emplacement" onmouseover="code(0)" onmouseout="noCode(0)">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   } else if (p == 1){
-    emplacementB7.innerHTML = '<li id="B7" class="emplacement onmouseover="code(1)" onmouseout="noCode(1)"">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementB7.innerHTML = '<li id="B7" class="emplacement onmouseover="code(1)" onmouseout="noCode(1)"">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   }else if (p == 2){
-    emplacementF8.innerHTML = '<li id="F8" class="emplacement" onmouseover="code(2)" onmouseout="noCode(2)">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementF8.innerHTML = '<li id="F8" class="emplacement" onmouseover="code(2)" onmouseout="noCode(2)">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   }else if (p == 3){
-    emplacementF4.innerHTML = '<li id="F4" class="emplacement" onmouseover="code(3)" onmouseout="noCode(3)">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementF4.innerHTML = '<li id="F4" class="emplacement" onmouseover="code(3)" onmouseout="noCode(3)">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   }else if (p == 4){
-    emplacementH8.innerHTML = '<li id="H8" class="emplacement" onmouseover="code(3)" onmouseout="noCode(3)">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementH8.innerHTML = '<li id="H8" class="emplacement" onmouseover="code(4)" onmouseout="noCode(4)">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   }else if (p == 5){
-    emplacementH6.innerHTML = '<li id="H6" class="emplacement" onmouseover="code(3)" onmouseout="noCode(3)">' + array[p].name + " " + array[p].position + '</li>';
+    emplacementH6.innerHTML = '<li id="H6" class="emplacement" onmouseover="code(5)" onmouseout="noCode(5)">' + array[p].name + " <span class='position'> &nbsp; placé en " + array[p].position + ' </span></li>';
   }
 }
-
+/*
 input.addEventListener('input', function submit(e){
     e.preventDefault();
     
@@ -119,4 +117,4 @@ input.addEventListener('input', function submit(e){
     resultDiv.appendChild(result)
     console.log(result)
   }
-});
+});*/
