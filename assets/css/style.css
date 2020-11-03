@@ -198,8 +198,23 @@ footer{
     max-width: 100%
   }
   .emplacement {
-    margin: 3px 0;
+    margin: 3px auto;
+    max-width: 80%
   }
+  .emplacement:hover{
+    
+    transform: scale(1)
+  
+}
+@keyframes modifyScale{
+  0%{
+    transform: scale(.8);
+  }
+  100%{
+    transform: scale(1)
+    
+  }
+}
   
  
 }
@@ -231,9 +246,5 @@ footer{
   .emplacement {
     margin: 10px 25%;
   }
-}
-@media screen and (min-width:780px){
-  form{
-    display: none;
-  }
+  
 }
